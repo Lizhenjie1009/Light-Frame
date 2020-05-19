@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let routes = [{
+      "is_out_sys": "0",
+      "path": "/home",
+      "deleted": 0,
+      "menu_icon": null,
+      "norder": 0,
+      "name": "Home",
+      "pid": 0,
+      "lastedit": "2019-02-27 16:20:18",
+      "Id": 1,
+      "title": "首页"
+    }, {
+      "is_out_sys": "0",
+      "path": "",
+      "deleted": 0,
+      "menu_icon": "",
+      "children": [{
+        "is_out_sys": "0",
+        "path": "/bigScreen2.html",
+        "deleted": 0,
+        "menu_icon": "",
+        "norder": 1,
+        "name": "bigScreen3",
+        "pid": 194,
+        "lastedit": "2019-03-25 01:05:01",
+        "Id": 193,
+        "title": "江东大屏2"
+      }],
+      "norder": 0,
+      "name": "outzhzx2",
+      "pid": 0,
+      "lastedit": "2019-03-25 01:04:49",
+      "Id": 194,
+      "title": "外部指挥中心2"
+    }, {
+      "is_out_sys": "0",
+      "path": "/jcyj",
+      "deleted": 0,
+      "menu_icon": "",
+      "children": [{
+        "is_out_sys": "0",
+        "path": "",
+        "deleted": 0,
+        "menu_icon": "",
+        "norder": 0,
+        "name": "",
+        "pid": 112,
+        "lastedit": "2019-12-19 14:19:38",
+        "Id": 254,
+        "title": "123"
+      }, {
+        "is_out_sys": "0",
+        "path": "/bkgl",
+        "deleted": 0,
+        "menu_icon": "guanzhu",
+        "children": [{
+          "id": 250,
+          "pid": 120,
+          "deleted": 0,
+          "lastedit": "2019-10-27 17:43:51",
+          "path": "/zdqyhf1",
+          "title": "重点区域划分",
+          "norder": -1,
+          "menuIcon": "yujing",
+          "isOutSys": "0",
+          "name": "Zdqyhf1"
+        }, {
+          "id": 18,
+          "pid": 120,
+          "deleted": 0,
+          "lastedit": "2019-02-27 18:19:54",
+          "path": "/rybkgl",
+          "title": "人员布控管理",
+          "norder": 0,
+          "menuIcon": "yonghu",
+          "isOutSys": "0",
+          "name": "Rybkgl"
+        }, {
+          "id": 19,
+          "pid": 120,
+          "deleted": 0,
+          "lastedit": "2019-02-27 18:28:10",
+          "path": "/clbkgl",
+          "title": "车辆布控管理",
+          "norder": 0,
+          "menuIcon": "cheliang",
+          "isOutSys": "0",
+          "name": "Clbkgl"
+        }, {
+          "id": 137,
+          "pid": 120,
+          "deleted": 0,
+          "lastedit": "2019-02-27 18:20:14",
+          "path": "/cbbkgl",
+          "title": "船舶布控管理",
+          "norder": 0,
+          "menuIcon": "chuanbopinggu",
+          "isOutSys": "0",
+          "name": "Cbbkgl"
+        }, {
+          "id": 221,
+          "pid": 120,
+          "deleted": 0,
+          "lastedit": "2019-04-29 17:03:47",
+          "path": "/dxmbk",
+          "title": "低慢小布控管理",
+          "norder": 0,
+          "menuIcon": "wurenji",
+          "isOutSys": "0",
+          "name": "Dxmbk"
+        }],
+        "norder": 12,
+        "name": "Bkgl",
+        "pid": 112,
+        "lastedit": "2019-10-26 11:56:52",
+        "Id": 120,
+        "title": "信息布控管理"
+      }, {
+        "is_out_sys": "0",
+        "path": "/ryyjjc",
+        "deleted": 0,
+        "menu_icon": "renyuan",
+        "children": [{
+          "id": 245,
+          "pid": 20,
+          "deleted": 0,
+          "lastedit": "2019-10-27 15:34:42",
+          "path": "/ryyj1",
+          "title": "关注人员预警",
+          "norder": 1,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Ryyj1"
+        }, {
+          "id": 246,
+          "pid": 20,
+          "deleted": 0,
+          "lastedit": "2019-10-27 15:37:08",
+          "path": "/zdqyyj1",
+          "title": "重点区域人员预警",
+          "norder": 2,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Zdqyyj1"
+        }, {
+          "id": 251,
+          "pid": 20,
+          "deleted": 0,
+          "lastedit": "2019-10-27 17:45:34",
+          "path": "/rllycyj1",
+          "title": "人流量异常预警",
+          "norder": 3,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Rllycyj1"
+        }, {
+          "id": 244,
+          "pid": 20,
+          "deleted": 0,
+          "lastedit": "2019-10-29 21:18:04",
+          "path": "/ycxw",
+          "title": "人员异常行为预警",
+          "norder": 4,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Ycxw"
+        }, {
+          "id": 172,
+          "pid": 20,
+          "deleted": 0,
+          "lastedit": "2020-04-29 16:00:47",
+          "path": "/yjtszs",
+          "title": "人员预警态势展示",
+          "norder": 99,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Yjtszs"
+        }],
+        "norder": 18,
+        "name": "Ryyjjc",
+        "pid": 112,
+        "lastedit": "2019-02-27 17:22:17",
+        "Id": 20,
+        "title": "人员监测预警"
+      }, {
+        "is_out_sys": "0",
+        "path": "/cljcyj",
+        "deleted": 0,
+        "menu_icon": "cheliangjiance",
+        "children": [{
+          "id": 247,
+          "pid": 44,
+          "deleted": 0,
+          "lastedit": "2019-10-27 15:45:06",
+          "path": "/clyj1",
+          "title": "关注车辆预警",
+          "norder": 1,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Clyj1"
+        }, {
+          "id": 249,
+          "pid": 44,
+          "deleted": 0,
+          "lastedit": "2019-10-27 15:47:22",
+          "path": "/zdqyclyj",
+          "title": "重点区域车辆预警",
+          "norder": 2,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Zdqyclyj"
+        }, {
+          "id": 170,
+          "pid": 44,
+          "deleted": 0,
+          "lastedit": "2019-10-21 09:28:19",
+          "path": "/yjtszs",
+          "title": "车辆预警态势展示",
+          "norder": 99,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Yjtszs"
+        }],
+        "norder": 18,
+        "name": "Cljcyj",
+        "pid": 112,
+        "lastedit": "2019-02-27 17:22:32",
+        "Id": 44,
+        "title": "车辆监测预警"
+      }, {
+        "is_out_sys": "0",
+        "path": "/cbyjzhcx",
+        "deleted": 0,
+        "menu_icon": "-lunchuan",
+        "norder": 18,
+        "name": "Cbyjzhcx",
+        "pid": 112,
+        "lastedit": "2019-10-26 11:58:17",
+        "Id": 227,
+        "title": "船舶监测预警"
+      }, {
+        "is_out_sys": "0",
+        "path": "/dxm",
+        "deleted": 0,
+        "menu_icon": "wurenji",
+        "norder": 21,
+        "name": "Dxm",
+        "pid": 112,
+        "lastedit": "2019-10-26 11:58:40",
+        "Id": 30,
+        "title": "低慢小监测预警"
+      }, {
+        "is_out_sys": "0",
+        "path": "/spjghxx",
+        "deleted": 0,
+        "menu_icon": "yijianfankui",
+        "children": [{
+          "id": 177,
+          "pid": 174,
+          "deleted": 0,
+          "lastedit": "2019-03-11 12:51:57",
+          "path": "/cjghxx",
+          "title": "车结构化信息",
+          "norder": 0,
+          "menuIcon": null,
+          "isOutSys": "0",
+          "name": "Cjghxx"
+        }, {
+          "id": 178,
+          "pid": 174,
+          "deleted": 0,
+          "lastedit": "2019-03-12 16:23:39",
+          "path": "/jghxx",
+          "title": "人结构化信息",
+          "norder": 0,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Rjghxx"
+        }],
+        "norder": 21,
+        "name": "Spjghxx",
+        "pid": 112,
+        "lastedit": "2019-09-26 13:59:58",
+        "Id": 174,
+        "title": "视频结构化信息"
+      }, {
+        "is_out_sys": "0",
+        "path": "/yqgl",
+        "deleted": 0,
+        "menu_icon": "zijinshouzhiqushifenxi",
+        "norder": 22,
+        "name": "Yqgl",
+        "pid": 112,
+        "lastedit": "2020-02-02 18:06:18",
+        "Id": 255,
+        "title": "疫情管理"
+      }],
+      "norder": 1,
+      "name": "Jcyj",
+      "pid": 0,
+      "lastedit": "2019-03-06 18:31:42",
+      "Id": 112,
+      "title": "监测预警"
+    }, {
+      "is_out_sys": "0",
+      "path": "",
+      "deleted": 0,
+      "menu_icon": "",
+      "children": [{
+        "is_out_sys": "0",
+        "path": "/bigScreen2.html#/bigScreen2",
+        "deleted": 0,
+        "menu_icon": "",
+        "norder": 0,
+        "name": "bigscreen2",
+        "pid": 192,
+        "lastedit": "2019-03-24 23:25:10",
+        "Id": 191,
+        "title": "大屏首页2"
+      }],
+      "norder": 1,
+      "name": "outzhzx",
+      "pid": 0,
+      "lastedit": "2019-03-23 23:10:04",
+      "Id": 192,
+      "title": "外部指挥中心"
+    }, {
+      "is_out_sys": "0",
+      "path": "/zhyp",
+      "deleted": 0,
+      "menu_icon": "",
+      "children": [{
+        "is_out_sys": "1",
+        "path": "/fxyp",
+        "deleted": 0,
+        "menu_icon": "fenxi",
+        "norder": 12,
+        "name": "Fxyp",
+        "pid": 113,
+        "lastedit": "2019-10-18 14:31:13",
+        "Id": 147,
+        "title": "分析研判"
+      }, {
+        "is_out_sys": "1",
+        "path": "/ypxl",
+        "deleted": 0,
+        "menu_icon": "ren",
+        "norder": 12,
+        "name": "Ypxl",
+        "pid": 113,
+        "lastedit": "2019-09-26 17:25:47",
+        "Id": 239,
+        "title": "研判训练"
+      }, {
+        "is_out_sys": "1",
+        "path": "/qyrytz",
+        "deleted": 0,
+        "menu_icon": "jiankongkongzhiguanlijianguan",
+        "norder": 24,
+        "name": "Qyrytz",
+        "pid": 113,
+        "lastedit": "2019-09-26 17:26:22",
+        "Id": 235,
+        "title": "区域人员特征分析"
+      }, {
+        "is_out_sys": "1",
+        "path": "dwgzlz",
+        "deleted": 0,
+        "menu_icon": "weitao",
+        "norder": 24,
+        "name": "Dwgzlz",
+        "pid": 113,
+        "lastedit": "2019-09-26 18:09:19",
+        "Id": 236,
+        "title": "智能多维感知联侦"
+      }, {
+        "is_out_sys": "1",
+        "path": "/kbmqbfx",
+        "deleted": 0,
+        "menu_icon": "yonghu",
+        "norder": 33,
+        "name": "Kbmqbfx",
+        "pid": 113,
+        "lastedit": "2019-09-26 18:09:01",
+        "Id": 238,
+        "title": "跨部门情报协同研判分析"
+      }],
+      "norder": 2,
+      "name": "Zhyp",
+      "pid": 0,
+      "lastedit": "2019-03-12 11:42:11",
+      "Id": 113,
+      "title": "综合研判"
+    }, {
+      "is_out_sys": "0",
+      "path": "/zhdd",
+      "deleted": 0,
+      "menu_icon": "",
+      "children": [{
+        "is_out_sys": "0",
+        "path": "/yjpf",
+        "deleted": 0,
+        "menu_icon": "yujing",
+        "children": [{
+          "id": 151,
+          "pid": 142,
+          "deleted": 0,
+          "lastedit": "2019-03-01 19:53:02",
+          "path": "/clyjpf",
+          "title": "车辆预警",
+          "norder": 0,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Clyjpf"
+        }, {
+          "id": 152,
+          "pid": 142,
+          "deleted": 0,
+          "lastedit": "2019-03-01 19:53:07",
+          "path": "/cbyjpf",
+          "title": "船舶预警",
+          "norder": 0,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Cbyjpf"
+        }, {
+          "id": 223,
+          "pid": 142,
+          "deleted": 0,
+          "lastedit": "2019-05-09 12:53:43",
+          "path": "/ryyjpf",
+          "title": "人员预警",
+          "norder": 0,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Ryyjpf"
+        }, {
+          "id": 224,
+          "pid": 142,
+          "deleted": 0,
+          "lastedit": "2019-05-09 16:36:12",
+          "path": "/dxmpf",
+          "title": "低慢小预警",
+          "norder": 0,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Dxmpf"
+        }],
+        "norder": 1,
+        "name": "Yjpf",
+        "pid": 114,
+        "lastedit": "2019-12-28 19:26:12",
+        "Id": 142,
+        "title": "任务管理"
+      }, {
+        "is_out_sys": "0",
+        "path": "/qqfw",
+        "deleted": 0,
+        "menu_icon": "qingqiugenzongrizhi",
+        "children": [{
+          "id": 87,
+          "pid": 115,
+          "deleted": 0,
+          "lastedit": "2019-02-27 17:21:15",
+          "path": "/wdqq",
+          "title": "我的请求服务",
+          "norder": 0,
+          "menuIcon": "renwu",
+          "isOutSys": "0",
+          "name": "Wdqq"
+        }, {
+          "id": 88,
+          "pid": 115,
+          "deleted": 0,
+          "lastedit": "2019-02-27 17:17:17",
+          "path": "/jsqq",
+          "title": "待处理的请求",
+          "norder": 0,
+          "menuIcon": "order-pending",
+          "isOutSys": "0",
+          "name": "Jsqq"
+        }, {
+          "id": 145,
+          "pid": 115,
+          "deleted": 0,
+          "lastedit": "2019-02-27 17:17:30",
+          "path": "/wcqq",
+          "title": "已处理的请求",
+          "norder": 0,
+          "menuIcon": "yichuli",
+          "isOutSys": "0",
+          "name": "Wcqq"
+        }],
+        "norder": 12,
+        "name": "Qqfw",
+        "pid": 114,
+        "lastedit": "2019-09-09 13:40:00",
+        "Id": 115,
+        "title": "请求服务"
+      }, {
+        "is_out_sys": "0",
+        "path": "/ywdb",
+        "deleted": 0,
+        "menu_icon": "yewushouli",
+        "children": [{
+          "id": 6,
+          "pid": 130,
+          "deleted": 0,
+          "lastedit": "2019-02-27 18:21:29",
+          "path": "/fqdb",
+          "title": "发起督办",
+          "norder": 1,
+          "menuIcon": "faqidehezuoshenqing",
+          "isOutSys": "0",
+          "name": "Fqdb"
+        }, {
+          "id": 4,
+          "pid": 130,
+          "deleted": 0,
+          "lastedit": "2020-04-30 15:03:14",
+          "path": "/Dbdb",
+          "title": "督办待办",
+          "norder": 2,
+          "menuIcon": "xiugai",
+          "isOutSys": "0",
+          "name": "Dbdb"
+        }, {
+          "id": 11,
+          "pid": 130,
+          "deleted": 0,
+          "lastedit": "2019-02-27 18:22:19",
+          "path": "/dbcx",
+          "title": "督办查询",
+          "norder": 3,
+          "menuIcon": "iconfontzhizuobiaozhunbduan35",
+          "isOutSys": "0",
+          "name": "Dbcx"
+        }, {
+          "id": 225,
+          "pid": 130,
+          "deleted": 0,
+          "lastedit": "2019-11-25 10:33:03",
+          "path": "/khdb",
+          "title": "机构评价",
+          "norder": 4,
+          "menuIcon": "kaohe",
+          "isOutSys": "0",
+          "name": "Khdb"
+        }],
+        "norder": 12,
+        "name": "Ywdb",
+        "pid": 114,
+        "lastedit": "2019-11-25 10:32:30",
+        "Id": 130,
+        "title": "考核监督"
+      }, {
+        "is_out_sys": "0",
+        "path": "/yqfx",
+        "deleted": 0,
+        "menu_icon": "fenxi",
+        "children": [{
+          "id": 90,
+          "pid": 131,
+          "deleted": 0,
+          "lastedit": "2020-05-11 08:51:11",
+          "path": "/wdyq",
+          "title": "我的线索",
+          "norder": 0,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Wdyq"
+        }, {
+          "id": 91,
+          "pid": 131,
+          "deleted": 0,
+          "lastedit": "2020-05-11 08:51:25",
+          "path": "/jsyq",
+          "title": "接收线索",
+          "norder": 1,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Jsyq"
+        }, {
+          "id": 148,
+          "pid": 131,
+          "deleted": 0,
+          "lastedit": "2020-05-11 08:51:47",
+          "path": "/wcyq",
+          "title": "已完成线索",
+          "norder": 2,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Wcyq"
+        }],
+        "norder": 12,
+        "name": "Yqfx",
+        "pid": 114,
+        "lastedit": "2020-05-11 08:50:50",
+        "Id": 131,
+        "title": "线索流转"
+      }, {
+        "is_out_sys": "0",
+        "path": "/sjcx",
+        "deleted": 0,
+        "menu_icon": "iconfontzhizuobiaozhunbduan35",
+        "children": [{
+          "id": 165,
+          "pid": 150,
+          "deleted": 0,
+          "lastedit": "2019-06-28 12:09:25",
+          "path": "/appsjcx",
+          "title": "APP数据查询",
+          "norder": 0,
+          "menuIcon": "shouji",
+          "isOutSys": "0",
+          "name": "Appsjcx"
+        }, {
+          "id": 226,
+          "pid": 150,
+          "deleted": 0,
+          "lastedit": "2019-06-28 12:16:44",
+          "path": "/ryda",
+          "title": "人员档案",
+          "norder": 0,
+          "menuIcon": "ren",
+          "isOutSys": "0",
+          "name": "Ryda"
+        }],
+        "norder": 12,
+        "name": "Sjcx",
+        "pid": 114,
+        "lastedit": "2019-09-09 13:40:59",
+        "Id": 150,
+        "title": "数据查询"
+      }, {
+        "is_out_sys": "0",
+        "path": "/tz",
+        "deleted": 0,
+        "menu_icon": "tongzhi",
+        "norder": 12,
+        "name": "Tz",
+        "pid": 114,
+        "lastedit": "2019-07-19 16:19:42",
+        "Id": 228,
+        "title": "通知公告"
+      }, {
+        "is_out_sys": "0",
+        "path": "/zbgl",
+        "deleted": 0,
+        "menu_icon": "zhiban",
+        "children": [{
+          "id": 95,
+          "pid": 117,
+          "deleted": 0,
+          "lastedit": "2019-02-27 17:17:41",
+          "path": "/zbpb",
+          "title": "值班排班综合信息表",
+          "norder": 0,
+          "menuIcon": "zhiban1",
+          "isOutSys": "0",
+          "name": "Zbpb"
+        }, {
+          "id": 96,
+          "pid": 117,
+          "deleted": 0,
+          "lastedit": "2019-03-06 17:48:05",
+          "path": "/zbdj",
+          "title": "值班信息登记",
+          "norder": 0,
+          "menuIcon": "rusuodengji",
+          "isOutSys": "0",
+          "name": "Zbdj"
+        }],
+        "norder": 15,
+        "name": "Zbgl",
+        "pid": 114,
+        "lastedit": "2020-01-03 19:03:16",
+        "Id": 117,
+        "title": "值班管理"
+      }],
+      "norder": 3,
+      "name": "Zhdd",
+      "pid": 0,
+      "lastedit": "2019-03-06 18:36:34",
+      "Id": 114,
+      "title": "指挥调度"
+    }, {
+      "is_out_sys": "1",
+      "path": "/kshzc",
+      "deleted": 0,
+      "menu_icon": "",
+      "norder": 5,
+      "name": "Kshxt",
+      "pid": 0,
+      "lastedit": "2019-10-09 11:49:07",
+      "Id": 241,
+      "title": "可视化支撑"
+    }, {
+      "is_out_sys": "1",
+      "path": "/nxpg",
+      "deleted": 0,
+      "menu_icon": "",
+      "norder": 6,
+      "name": "Nxpg",
+      "pid": 0,
+      "lastedit": "2019-10-09 10:43:24",
+      "Id": 243,
+      "title": "效能评估"
+    }, {
+      "is_out_sys": "0",
+      "path": "/wdgz",
+      "deleted": 0,
+      "menu_icon": null,
+      "children": [{
+        "is_out_sys": "0",
+        "path": "/bmfw",
+        "deleted": 0,
+        "menu_icon": "shequguanli_bianminxinxi",
+        "norder": 12,
+        "name": "Bmfw",
+        "pid": 118,
+        "lastedit": "2019-02-27 17:18:01",
+        "Id": 110,
+        "title": "便民服务"
+      }, {
+        "is_out_sys": "0",
+        "path": "/wdsp",
+        "deleted": 0,
+        "menu_icon": "shenpi",
+        "norder": 12,
+        "name": "Wdsp",
+        "pid": 118,
+        "lastedit": "2019-02-27 17:18:38",
+        "Id": 127,
+        "title": "我的审批"
+      }, {
+        "is_out_sys": "0",
+        "path": "/yjfk",
+        "deleted": 0,
+        "menu_icon": "yijianfankui",
+        "norder": 12,
+        "name": "Yjfk",
+        "pid": 118,
+        "lastedit": "2019-02-27 17:18:49",
+        "Id": 128,
+        "title": "预警反馈"
+      }, {
+        "is_out_sys": "0",
+        "path": "/wdgz",
+        "deleted": 0,
+        "menu_icon": "guanzhu",
+        "children": [{
+          "id": 162,
+          "pid": 129,
+          "deleted": 0,
+          "lastedit": "2019-09-15 19:11:27",
+          "path": "/tz",
+          "title": "通知公告",
+          "norder": 0,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": "Tz"
+        }, {
+          "id": 163,
+          "pid": 129,
+          "deleted": 0,
+          "lastedit": "2019-03-05 16:44:38",
+          "path": "",
+          "title": "通告",
+          "norder": 0,
+          "menuIcon": "",
+          "isOutSys": "0",
+          "name": ""
+        }],
+        "norder": 12,
+        "name": "Wdgz",
+        "pid": 118,
+        "lastedit": "2019-02-27 17:19:01",
+        "Id": 129,
+        "title": "我的关注"
+      }, {
+        "is_out_sys": "0",
+        "path": "/xwot",
+        "deleted": 0,
+        "menu_icon": "kaohe",
+        "norder": 12,
+        "name": "Xwot",
+        "pid": 118,
+        "lastedit": "2019-04-10 12:08:49",
+        "Id": 197,
+        "title": "态势分析"
+      }, {
+        "is_out_sys": "0",
+        "path": "/wdyj",
+        "deleted": 0,
+        "menu_icon": "yujing",
+        "norder": 12,
+        "name": "Wdyj",
+        "pid": 118,
+        "lastedit": "2019-04-12 11:07:15",
+        "Id": 198,
+        "title": "我的预警"
+      }, {
+        "is_out_sys": "0",
+        "path": "/wdhcrw",
+        "deleted": 0,
+        "menu_icon": "jishijihechaxun",
+        "norder": 18,
+        "name": "Wdhcrw",
+        "pid": 118,
+        "lastedit": "2019-02-27 17:18:20",
+        "Id": 126,
+        "title": "我的核查任务"
+      }, {
+        "is_out_sys": "0",
+        "path": "/wdxcrw",
+        "deleted": 0,
+        "menu_icon": "qingqiugenzongrizhi",
+        "norder": 18,
+        "name": "Wdxcrw",
+        "pid": 118,
+        "lastedit": "2019-02-27 17:22:57",
+        "Id": 144,
+        "title": "我的协查任务"
+      }],
+      "norder": 8,
+      "name": "Wdgz",
+      "pid": 0,
+      "lastedit": "2019-02-14 17:13:25",
+      "Id": 118,
+      "title": "我的工作"
+    }, {
+      "is_out_sys": "0",
+      "path": "/seeting",
+      "deleted": 0,
+      "menu_icon": "",
+      "children": [{
+        "is_out_sys": "0",
+        "path": "/user",
+        "deleted": 0,
+        "menu_icon": "yonghuguanli",
+        "norder": 0,
+        "name": "User",
+        "pid": 119,
+        "lastedit": "2019-02-27 17:19:26",
+        "Id": 100,
+        "title": "用户管理"
+      }, {
+        "is_out_sys": "0",
+        "path": "/permission",
+        "deleted": 0,
+        "menu_icon": "quanxianguanli",
+        "norder": 0,
+        "name": "Permission",
+        "pid": 119,
+        "lastedit": "2019-02-27 17:19:45",
+        "Id": 102,
+        "title": "权限管理"
+      }, {
+        "is_out_sys": "0",
+        "path": "/area",
+        "deleted": 0,
+        "menu_icon": "quyuguanli",
+        "norder": 0,
+        "name": "Area",
+        "pid": 119,
+        "lastedit": "2019-02-27 17:20:02",
+        "Id": 122,
+        "title": "行政区划"
+      }, {
+        "is_out_sys": "0",
+        "path": "/dept",
+        "deleted": 0,
+        "menu_icon": "zuzhijigou",
+        "norder": 0,
+        "name": "Dept",
+        "pid": 119,
+        "lastedit": "2019-02-27 17:20:12",
+        "Id": 123,
+        "title": "组织机构"
+      }, {
+        "is_out_sys": "0",
+        "path": "/dict",
+        "deleted": 0,
+        "menu_icon": "ico-",
+        "norder": 0,
+        "name": "Dict",
+        "pid": 119,
+        "lastedit": "2019-02-27 17:22:08",
+        "Id": 124,
+        "title": "数据字典"
+      }, {
+        "is_out_sys": "0",
+        "path": "/addGIS",
+        "deleted": 0,
+        "menu_icon": "biaohui",
+        "norder": 0,
+        "name": "AddGIS",
+        "pid": 119,
+        "lastedit": "2019-02-27 17:20:21",
+        "Id": 125,
+        "title": "GIS 标绘"
+      }, {
+        "is_out_sys": "0",
+        "path": "/management",
+        "deleted": 0,
+        "menu_icon": "peizhixiang",
+        "norder": 0,
+        "name": "Management",
+        "pid": 119,
+        "lastedit": "2019-02-27 17:20:33",
+        "Id": 141,
+        "title": "配置项管理"
+      }, {
+        "is_out_sys": "0",
+        "path": "/interface",
+        "deleted": 0,
+        "menu_icon": "xianlu",
+        "norder": 0,
+        "name": "Interface",
+        "pid": 119,
+        "lastedit": "2019-04-03 18:58:10",
+        "Id": 195,
+        "title": "外部接口配置"
+      }, {
+        "is_out_sys": "0",
+        "path": "/kafka",
+        "deleted": 0,
+        "menu_icon": "zijinshouzhiqushifenxi",
+        "norder": 0,
+        "name": "Kafka",
+        "pid": 119,
+        "lastedit": "2019-04-09 15:44:15",
+        "Id": 196,
+        "title": "kafka配置"
+      }, {
+        "is_out_sys": "0",
+        "path": "/onlineUser",
+        "deleted": 0,
+        "menu_icon": "caidanguanli",
+        "norder": 0,
+        "name": "OnlineUser",
+        "pid": 119,
+        "lastedit": "2019-12-06 16:00:20",
+        "Id": 253,
+        "title": "在线用户"
+      }, {
+        "is_out_sys": "0",
+        "path": "/menus",
+        "deleted": 0,
+        "menu_icon": "caidanguanli",
+        "norder": 1,
+        "name": "Menus",
+        "pid": 119,
+        "lastedit": "2019-02-27 17:19:36",
+        "Id": 101,
+        "title": "菜单管理"
+      }, {
+        "is_out_sys": "0",
+        "path": "/posture",
+        "deleted": 0,
+        "menu_icon": "shipin",
+        "norder": 10,
+        "name": "Posture",
+        "pid": 119,
+        "lastedit": "2019-03-18 16:18:43",
+        "Id": 190,
+        "title": "态势体征"
+      }],
+      "norder": 10,
+      "name": "Seeting",
+      "pid": 0,
+      "lastedit": "2019-04-29 11:51:03",
+      "Id": 119,
+      "title": "系统设置"
+    }, {
+      "is_out_sys": "0",
+      "path": "",
+      "deleted": 0,
+      "menu_icon": "",
+      "children": [{
+        "is_out_sys": "0",
+        "path": "/bigScreen.html#/bigScreen2",
+        "deleted": 0,
+        "menu_icon": "",
+        "norder": 0,
+        "name": "bigscreen",
+        "pid": 160,
+        "lastedit": "2019-03-24 20:13:01",
+        "Id": 161,
+        "title": "大屏首页"
+      }],
+      "norder": 11,
+      "name": "zhzxmenugroup",
+      "pid": 0,
+      "lastedit": "2019-03-06 18:36:17",
+      "Id": 160,
+      "title": "指挥中心菜单组"
+    }, {
+      "is_out_sys": "0",
+      "path": "",
+      "deleted": 0,
+      "menu_icon": "",
+      "norder": 12,
+      "name": "",
+      "pid": 0,
+      "lastedit": "2019-03-07 12:10:33",
+      "Id": 166,
+      "title": "分析研判"
+    }, {
+      "is_out_sys": "0",
+      "path": "/yq",
+      "deleted": 0,
+      "menu_icon": "",
+      "norder": 30,
+      "name": "Yq",
+      "pid": 0,
+      "lastedit": "2020-02-02 18:04:00",
+      "Id": 257,
+      "title": "抗击疫情"
+    }]
+  
+    let navList = []
+    let childrenList = []
+
+    routes.forEach((item1, index1) => {
+      navList.push({
+        alwaysShow: !item1.children,
+        component: 'Layout',
+        meta: {
+          title: item1.title,
+          icon: item1.menu_icon
+        },
+        redirect: item1.children ? `/to${item1.children[0].name}` : `/to${item1.name}`,
+        path: item1.path,
+        name: item1.name,
+        is_out_sys:item1.is_out_sys,
+        children: item1.children ? [] : [{
+          meta: {
+            title: item1.title,
+            icon: item1.menu_icon
+          },
+          path: item1.path ? `/to${item1.name}` : '',
+          name: `to${item1.name}`,
+          component: () => import(`@/views${item1.path}/to${item1.name}`)
+        }]
+      })
+      if (item1.children) {
+        item1.children.forEach((item2, index2) => {
+          navList[index1].children.push({
+            alwaysShow: !item2.children,
+            component: 'Layout',
+            meta: {
+              title: item2.title,
+              icon: item2.menu_icon
+            },
+            redirect: item2.children ? `${item1.path}${item2.path}/to${item2.children[0].name}` : `${item1.path}/to${item2.name}`,
+            path: item2.path ? `${item1.path}${item2.path}` : '',
+            name: `${item1.name}_${item2.name}`,
+            is_out_sys:item2.is_out_sys,
+            children: item2.children ? [] : [{
+              meta: {
+                title: item2.title,
+                icon: item2.menu_icon
+              },
+              path: item2.path ? `${item1.path}/to${item2.name}` : '',
+              name: `to${item1.name}_${item2.name}`,
+              component: () => import(`@/views${item1.path}/to${item2.name}`)
+            }]
+          })
+          if (item2.children) {
+            item2.children.forEach((item3, index3) => {
+              navList[index1].children[index2].children.push({
+                meta: {
+                  title: item3.title,
+                  icon: item3.menu_icon
+                },
+                path: item3.path ? `${item1.path}${item2.path}/to${item3.name}` : '',
+                name: `${item1.name}_${item2.name}_${item3.name}`,
+                is_out_sys:item3.is_out_sys,
+                component: () => import(`@/views${item1.path}${item2.path}/to${item3.name}`)
+              })
+            })
+          }
+        })
+      }
+    })
+
+    navList = navList.filter(item => {
+      if (item.path && item.children) {
+        if (item.children.length === 1) {
+          childrenList.push(item)
+          return item.path
+        }
+        item.children = item.children.filter(item1 => {
+          if (item1.path && item1.children) {
+            childrenList.push(item1)
+            item1.children = item1.children.filter(item2 => {
+              return item2.path
+            })
+          }
+          return item1.path
+        })
+        return item.path
+      }
+    })
+
+    console.log(childrenList, navList)
+  </script>
+</body>
+
+</html>
