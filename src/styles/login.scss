@@ -1,0 +1,97 @@
+/deep/.el-form-item.is-error .el-input__inner, .el-form-item.is-error .el-input__inner:focus, .el-form-item.is-error .el-textarea__inner, .el-form-item.is-error .el-textarea__inner:focus, .el-message-box__input input.invalid, .el-message-box__input input.invalid:focus {
+  border-color: #f56c6c !important;
+}
+/deep/.el-form-item.is-success .el-input__inner, .el-form-item.is-success .el-input__inner:focus, .el-form-item.is-success .el-textarea__inner, .el-form-item.is-success .el-textarea__inner:focus {
+  border-color: #67c23a !important;
+}
+.l-img{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 32px;
+  left: 150px;
+}
+.from-user {
+  position: absolute;
+  width: 100%;
+  height: 430px;
+  top: 137px;
+  .el-form-item {
+    position: relative;
+    width: 795px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 25px;
+    /deep/.el-input__inner {
+      width: 70%;
+      height: 80px;
+      background: rgba(5, 39, 81, 0.5);
+      border-radius: 2px;
+      border: 1px solid #003a77;
+      padding-left: 81px;
+      position: relative;
+      font-size: 24px;
+      line-height: 40px;
+      color: #fff;
+      font-family: FZZYJW--GB1;
+    }
+    /deep/.el-form-item__error {
+      left: 120px;
+    }
+    /deep/button {
+      width: 70%;
+      height: 80px;
+      background-color: rgb(0, 177, 255);
+      font-size: 24px;
+    }
+  }
+}
+
+#login {
+  width: 100%;
+  height: 100%;
+  background: url('../../assets/img/bg.png') 100% 100% fixed;
+  // overflow: hidden;
+  .login-from {
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/img/login-bg.png') 100% 100% no-repeat fixed;
+  }
+}
+.from {
+  width: 795px;
+  height: 527px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .title {
+    position: absolute;
+    text-align: center;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    font-size: 28px;
+    font-family: PingFangSC;
+    font-weight: 500;
+    color: white;
+  }
+  .form-bg {
+    width: 795px;
+    height: 527px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../../assets/img/login-box.png');
+  }
+  // background: url('../../assets/img/login-box.png');
+  .login-logo {
+    position: absolute;
+    width: 594px;
+    height: 79px;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
