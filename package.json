@@ -15,7 +15,7 @@
     "element-ui": "^2.13.1",
     "normalize.css": "^8.0.1",
     "postcss-px2rem-exclude": "0.0.6",
-    "swiper": "^5.3.8",
+    "swiper": "^6.5.1",
     "vue": "^2.6.10",
     "vue-awesome-swiper": "^4.1.1",
     "vue-router": "^3.0.3",
